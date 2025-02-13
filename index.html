@@ -3,80 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your Resume - Full Stack Software Engineer</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Full Stack Software Engineer Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 1.8em;
+        }
+        .tech-skills ul,
+        .work-experience ul,
+        .education ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .tech-skills li,
+        .work-experience li,
+        .education li {
+            margin-bottom: 10px;
+        }
+        .tech-skills li span,
+        .work-experience li span,
+        .education li span {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav>
+<div class="container">
+    <header>
+        <h1>Full Stack Software Engineer</h1>
+        <p>Experienced Full Stack Software Engineer with a Master’s degree in Computer Science and 6+ years of experience designing and deploying scalable web and mobile applications. Proficient in blockchain integration, AI-driven systems, and microservices architecture. Adept at leading cross-functional teams, optimizing database performance, and delivering high-quality software solutions. Passionate about leveraging cutting-edge technologies to solve complex problems and drive business growth.</p>
+    </header>
+
+    <section class="tech-skills">
+        <h2>Technical Skills</h2>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><span>Backend Development:</span> Python, Java, Node.js, Django, Spring Boot, NestJS, Laravel, PHP, C++</li>
+            <li><span>Frontend Development:</span> React, React Native, JavaScript, TypeScript, HTML5, CSS3, Bootstrap</li>
+            <li><span>Databases:</span> MongoDB, PostgreSQL, MySQL, Redis, Oracle</li>
+            <li><span>DevOps & Cloud:</span> Docker, Kubernetes, AWS, GCP, CI/CD Pipelines ,GitHub Actions, Bitbucket Pipelines, Jenkins</li>
+            <li><span>Blockchain Development:</span> Bitcoin/ETH Node Integration, Smart Contracts, Cryptocurrency Wallets, Multi-Protocol Compatibility (BTC, ETH, BNB, Polygon)</li>
+            <li><span>AI & Machine Learning:</span> OpenCV, AI Face Recognition, Neural Networks, Data Modeling</li>
+            <li><span>Tools:</span> Git, Jira, Firebase, Stripe, RabbitMQ, Apache Kafka, GraphQL, REST APIs, WebSockets</li>
         </ul>
-    </nav>
-
-    <!-- Home Section -->
-    <section id="home">
-        <div class="intro">
-            <h1>Welcome to My Portfolio</h1>
-            <p>I'm a Full Stack Software Engineer with 6+ years of experience. Let's explore my work!</p>
-            <a href="#resume" class="btn">View My Resume</a>
-        </div>
     </section>
 
-    <!-- Resume Section -->
-    <section id="resume">
-        <div class="resume-container">
-            <h2>Full Stack Software Engineer</h2>
-            <p>Experienced Full Stack Software Engineer with a Master’s degree in Computer Science and 6+ years of experience designing and deploying scalable web and mobile applications...</p>
+    <section class="work-experience">
+        <h2>Work Experience</h2>
+        <h3>Lead Full Stack Software Engineer</h3>
+        <p><strong>Nationwide Environmental Title Research, LLC (NETR)</strong> – Apr 2024 – Present</p>
+        <p><strong>Technologies:</strong> C++, Python, PHP, JavaScript, jQuery, SQL, Postgres/GIS, GDAL/OGR, MapServer, Leaflet, OpenLayers, Docker, Kubernetes, Git, CI/CD Pipelines, AI Integration, REST APIs, Nginx, Linux (Debian), Synology NAS, ESRI ArcServer</p>
+        <ul>
+            <li>Led the development team in enhancing and maintaining NETR’s suite of web applications, including Environmental Data, Public Records Online, Mapping & GIS, Property Data Store, and Historic Aerials</li>
+            <li>Integrated AI-powered search functionality to retrieve and process data from government websites, enhancing data accuracy and user experience</li>
+            <li>Improved the Mapping & GIS application by adding parcel drawing functionality for different years, states, and counties, converting data to multiple projections for accurate and versatile mapping</li>
+            <li>Developed scripts using GDAL to convert PDF files to SID format, enabling the display of topographic drawings on Historic Aerials for new years</li>
+            <li>Enhanced the Environmental Data backend and frontend to process ESRI links, enabling users to select zone areas and generate detailed environmental reports</li>
+            <li>Migrated projects from local servers to the cloud, containerizing applications using Docker and orchestrating with Kubernetes</li>
+            <li>Implemented CI/CD pipelines for all projects, streamlining deployment processes and improving development efficiency</li>
+            <li>Fixed existing bugs, updated features to use the latest technologies, and integrated new payment methods for seamless user transactions</li>
+            <li>Optimized the mapper code for improved performance and accuracy, ensuring compatibility with various GIS tools and projections</li>
+        </ul>
 
-            <h3>Technical Skills</h3>
-            <ul>
-                <li><strong>Backend Development:</strong> Python, Java, Node.js, Django, Spring Boot, NestJS, Laravel, PHP, C++</li>
-                <li><strong>Frontend Development:</strong> React, React Native, JavaScript, TypeScript, HTML5, CSS3, Bootstrap</li>
-                <li><strong>Databases:</strong> MongoDB, PostgreSQL, MySQL, Redis, Oracle</li>
-                <li><strong>DevOps & Cloud:</strong> Docker, Kubernetes, AWS, GCP, CI/CD Pipelines, GitHub Actions, Jenkins</li>
-                <li><strong>Blockchain Development:</strong> Bitcoin/ETH Node Integration, Smart Contracts, Cryptocurrency Wallets</li>
-                <li><strong>AI & Machine Learning:</strong> OpenCV, AI Face Recognition, Neural Networks</li>
-            </ul>
+        <h3>Senior Full Stack Software Engineer</h3>
+        <p><strong>Zircon Global Technologies – Reno, NV</strong> – Sept 2023 – Present</p>
+        <p><strong>Technologies:</strong> React native, NestJS, Node.js, Docker, REST APIs, Kubernetes, Firebase, Python, Django, Git, CI/CD Pipelines, Redis, Java, JavaScript, GCP, Jira, Bitcoin Node, ETH Node, Blockchain, PostgreSQL</p>
+        <ul>
+            <li>Designed and developed scalable web applications using React Native, NestJS, and Node.js, ensuring high-quality software solutions for the Ethos project</li>
+            <li>Spearheaded enhancements to the blockchain pricing engine, expanding compatibility to support 10,000+ tokens across Bitcoin, BNB, Solana, Ethereum, and Polygon networks, reducing response time to milliseconds</li>
+            <li>Optimized database performance through query optimization, indexing, and partitioning, improving system scalability and reducing latency by 40%</li>
+            <li>Conducted code reviews and enforced coding standards, resulting in a 20% reduction in bugs and improved code maintainability</li>
+            <li>Collaborated on system architecture design, contributing to scalable and efficient software solutions for high-traffic applications</li>
+            <li>Integrated Docker and Kubernetes for containerization and orchestration, streamlining deployment processes and reducing downtime by 30%</li>
+            <li>Contributed to database design, API architecture, and overall system architecture planning</li>
+        </ul>
 
-            <h3>Work Experience</h3>
-            <div class="job">
-                <h4>Lead Full Stack Software Engineer - NETR</h4>
-                <span>Apr 2024 – Present</span>
-                <p>Led the development team in enhancing and maintaining NETR’s suite of web applications...</p>
-            </div>
+        <h3>Lead Full Stack Software Engineer</h3>
+        <p><strong>GoldenCorp – Algiers, Algeria</strong> – Mar 2020 – Sept 2023</p>
+        <p><strong>Technologies:</strong> React, React native, Elixir, REST APIs, Django, Python, Laravel, PHP, C++, Node.js, Git, Java, spring boot, CI/CD Pipelines, Bitbucket Pipelines, Firebase, Firestore, Stripe, TypeScript, JavaScript, Jira, Redis, PostgreSQL, MongoDB, GCP, AWS, Docker, Kubernetes, BITCOIN node, ETH node</p>
+        <ul>
+            <li>Led a team of 15 engineers in developing cross-platform applications (TheosLink, Satsio) for crypto trading and wallet management, handling 1M+ daily transactions</li>
+            <li>Engineered a microservices architecture, reducing system downtime by 30% and enhancing reliability for high-volume trading platforms</li>
+            <li>Implemented message brokers (RabbitMQ, Apache Kafka, Redis) for efficient communication between services, improving system performance by 25%</li>
+            <li>Optimized WebSocket for real-time data transmission, enabling dynamic financial charts and enhancing user experience</li>
+            <li>Designed database architecture for high availability and scalability, ensuring seamless handling of 1M+ transactions daily</li>
+            <li>Integrated blockchain nodes (Bitcoin, Ethereum) for wallet operations, enabling secure transactions, withdrawals, and deposits</li>
+            <li>Contributed to designing the pricing engine and the matching engine, optimizing trading functionalities and ensuring accurate pricing and order matching</li>
+        </ul>
 
-            <div class="job">
-                <h4>Senior Full Stack Software Engineer - Zircon Global Technologies</h4>
-                <span>Sept 2023 – Present</span>
-                <p>Designed and developed scalable web applications using React Native, NestJS, and Node.js...</p>
-            </div>
-
-            <!-- Add additional work experience entries here -->
-
-            <h3>Education</h3>
-            <div class="education">
-                <h4>Master of Science in Information and Telecommunication</h4>
-                <p>Abdelhafid Boussouf University – Mila, Algeria</p>
-                <p>Sept 2015 – Jun 2017</p>
-            </div>
-        </div>
+        <h3>Lead Full Stack Developer (Remote)</h3>
+        <p><strong>InStack – Mila, Algeria</strong> – Jul 2017 – Mar 2020</p>
+        <p><strong>Technologies:</strong> React, React native, Node.js, REST APIs, Django, Python, Laravel, PHP, JavaScript, Docker, Git, CI/CD Pipelines, GCP, AWS, Jira, OpenCV, Java, spring boot, Redis, PostgreSQL, MySQL, Oracle. HTML, CSS, Bootstrap</p>
+        <ul>
+            <li>Developed and maintained a web app with AI face recognition, achieving 95% accuracy and reducing unauthorized access by 40%</li>
+            <li>Built a robust backend infrastructure, integrating AI recognition processes and delivering efficient APIs for seamless application performance</li>
+            <li>Designed a database to handle face recognition data, ensuring optimal organization, storage, and retrieval for high-volume usage</li>
+            <li>Collaborated with the ISO team (International Organization for Standardization) to implement an internal platform for streamlining employee workflows and compliance</li>
+            <li>Implemented database security protocols and managed high-volume data storage solutions, ensuring data integrity and availability</li>
+        </ul>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <!-- You can add your project links here -->
-    </section>
+    <section class="education">
+        <h2>Education</h2>
+        <h3>Master of Science in Information and Telecommunication</h3>
+        <p><strong>Abdelhafid Boussouf University – Mila, Algeria</strong> – Sept 2015 – Jun 2017</p>
+        <p><strong>CGPA:</strong> 4.0/4.0 | Graduated with honors</p>
 
-    <!-- Footer -->
-    <footer id="contact">
-        <p>Contact me: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-    </footer>
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p><strong>Abdelhafid Boussouf University – Algeria, Mila</strong> – Sept 2012 – Jun 2015</p>
+        <p><strong>CGPA:</strong> 3.9/4.0 | Graduated with honors</p>
+    </section>
+</div>
 
 </body>
 </html>
