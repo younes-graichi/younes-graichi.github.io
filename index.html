@@ -3,23 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Younes Graichi's Website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Resume - Full Stack Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website!</h1>
-        <nav>
-            <ul>
-                <li><a href="resume/">Resume</a></li>
-                <li><a href="#">Other Section</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <h2>About Me</h2>
-        <p>This is the homepage of my personal website.</p>
-    </main>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="intro">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a Full Stack Software Engineer with 6+ years of experience. Let's explore my work!</p>
+            <a href="#resume" class="btn">View My Resume</a>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="resume-container">
+            <h2>Full Stack Software Engineer</h2>
+            <p>Experienced Full Stack Software Engineer with a Master’s degree in Computer Science and 6+ years of experience designing and deploying scalable web and mobile applications...</p>
+
+            <h3>Technical Skills</h3>
+            <ul>
+                <li><strong>Backend Development:</strong> Python, Java, Node.js, Django, Spring Boot, NestJS, Laravel, PHP, C++</li>
+                <li><strong>Frontend Development:</strong> React, React Native, JavaScript, TypeScript, HTML5, CSS3, Bootstrap</li>
+                <li><strong>Databases:</strong> MongoDB, PostgreSQL, MySQL, Redis, Oracle</li>
+                <li><strong>DevOps & Cloud:</strong> Docker, Kubernetes, AWS, GCP, CI/CD Pipelines, GitHub Actions, Jenkins</li>
+                <li><strong>Blockchain Development:</strong> Bitcoin/ETH Node Integration, Smart Contracts, Cryptocurrency Wallets</li>
+                <li><strong>AI & Machine Learning:</strong> OpenCV, AI Face Recognition, Neural Networks</li>
+            </ul>
+
+            <h3>Work Experience</h3>
+            <div class="job">
+                <h4>Lead Full Stack Software Engineer - NETR</h4>
+                <span>Apr 2024 – Present</span>
+                <p>Led the development team in enhancing and maintaining NETR’s suite of web applications...</p>
+            </div>
+
+            <div class="job">
+                <h4>Senior Full Stack Software Engineer - Zircon Global Technologies</h4>
+                <span>Sept 2023 – Present</span>
+                <p>Designed and developed scalable web applications using React Native, NestJS, and Node.js...</p>
+            </div>
+
+            <!-- Add additional work experience entries here -->
+
+            <h3>Education</h3>
+            <div class="education">
+                <h4>Master of Science in Information and Telecommunication</h4>
+                <p>Abdelhafid Boussouf University – Mila, Algeria</p>
+                <p>Sept 2015 – Jun 2017</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <!-- You can add your project links here -->
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Contact me: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    </footer>
+
 </body>
 </html>
