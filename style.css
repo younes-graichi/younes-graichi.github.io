@@ -1,12 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
     background-color: #333;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 nav ul {
@@ -28,6 +32,27 @@ main {
     margin: 20px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #333;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
 }
